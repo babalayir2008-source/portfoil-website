@@ -6,7 +6,7 @@
 import { Skill, Project, EducationItem, ExperienceItem, Certification, Achievement } from './types';
 
 export const personalInfo = {
-  name: "Manshi Ayir",
+  name: "Babal",
   title: "Full Stack Developer | Web Developer | Computer Science Student",
   avatar: "/src/assets/images/developer_avatar_1782360933509.jpg",
   email: "manshiayir@gmail.com",

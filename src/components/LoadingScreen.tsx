@@ -118,7 +118,7 @@ export default function LoadingScreen({ onComplete }: LoadingScreenProps) {
           transition={{ delay: 0.4 }}
           className="absolute bottom-8 text-xs tracking-wider text-slate-500"
         >
-          MANSHI AYIR • PORTFOLIO v2.0
+          BABAL • PORTFOLIO v2.0
         </motion.div>
       </motion.div>
     </AnimatePresence>

@@ -48,7 +48,7 @@ ${experienceData.map(exp => `- ${exp.role} @ ${exp.company}
 ${exp.description.map(desc => `    * ${desc}`).join('\n')}`).join('\n\n')}
 
 ==================================================================
-Generated via Manshi Ayir's Developer Portfolio
+Generated via Babal's Developer Portfolio
 ==================================================================
     `;
 
@@ -56,7 +56,7 @@ Generated via Manshi Ayir's Developer Portfolio
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `Manshi_Ayir_Resume.txt`;
+    link.download = `Babal_Resume.txt`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
