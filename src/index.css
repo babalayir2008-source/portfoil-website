@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --animate-spin-slow: spin 16s linear infinite;
+
+  --color-lux-wine: #5c0612;
+  --color-lux-wine-light: #7a0f1d;
+  --color-lux-gold: #c5a880;
+  --color-lux-dark: #08080a;
+  --color-lux-charcoal: #121214;
+  --color-lux-black: #000000;
+  --color-lux-white: #ffffff;
+  --color-lux-cream: #fcfbfa;
+}
+
+@layer utilities {
+  /* Scrollbar Customization */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(147, 51, 234, 0.2);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(147, 51, 234, 0.4);
+  }
+
+  /* Smooth scroll support */
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+  }
+}
+
+/* Glassmorphic Panel Helpers */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.dark .glass-panel {
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Print Overrides for Professional Resume View */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  header, footer, button, #back-to-top-btn, #bg-particles-canvas {
+    display: none !important;
+  }
+}
