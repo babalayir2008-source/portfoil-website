@@ -25,6 +25,7 @@ export default function Navbar({ isDarkMode, toggleTheme }: NavbarProps) {
     { name: 'Education', href: '#education' },
     { name: 'Skills', href: '#skills' },
     { name: 'Projects', href: '#projects' },
+    { name: 'Gallery', href: '#images' },
     { name: 'Experience', href: '#experience' },
     { name: 'Contact', href: '#contact' },
   ];

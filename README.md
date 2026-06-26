@@ -19,6 +19,7 @@ Welcome to my professional developer portfolio! This is a modern, responsive, hi
 ## ✨ Features & Highlights
 
 - **🌗 Class-Based Dark & Light Mode**: Seamlessly transition between an eye-friendly, elegant dark mode and a clean, spacious light mode, built natively with Tailwind CSS v4 custom variants.
+- **🖼️ Interactive Visual Gallery**: A gorgeous bento-grid media showcase illustrating Babal's professional avatar, celebratory milestones, and high-fidelity project interfaces. Built with responsive filters and full-screen lightbox controls.
 - **📱 desktop-First Precision**: Fully responsive layout tailored perfectly for desktop screens down to mobile devices with smooth touch targets.
 - **✨ Fluid Animations**: Smooth visual interactive feedback, staggered card entrance effects, and dynamic particle backgrounds implemented via `@motion/react` (Motion) and HTML Canvas.
 - **📑 Live Printable Resume Section**: Beautifully formatted, print-optimized Resume section that looks spectacular on paper or exported as a PDF.
@@ -54,6 +55,7 @@ Welcome to my professional developer portfolio! This is a modern, responsive, hi
 │   │   ├── Education.tsx         # Detailed educational timeline
 │   │   ├── Skills.tsx            # Visual progression bars & expertise layout
 │   │   ├── Projects.tsx          # Interactive project bento-grid & demo links
+│   │   ├── Images.tsx            # Interactive Visual Gallery & Lightbox showcase
 │   │   ├── Experience.tsx        # Career internship timeline
 │   │   ├── ResumeSection.tsx     # Full printable interactive CV
 │   │   └── Contact.tsx           # Contact details with functional AJAX form
