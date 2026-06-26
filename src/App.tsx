@@ -11,7 +11,6 @@ import About from './components/About';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Images from './components/Images';
 import Experience from './components/Experience';
 import Certifications from './components/Certifications';
 import Achievements from './components/Achievements';
@@ -71,7 +70,6 @@ export default function App() {
         <Education />
         <Skills />
         <Projects />
-        <Images />
         <Experience />
         <Certifications />
         <Achievements />

@@ -4,14 +4,66 @@ Welcome to my professional developer portfolio! This is a modern, responsive, hi
 
 ---
 
-## 📸 Profile Showcase
+## 📸 Visual Gallery & Screenshots Showcase
 
+Explore the high-fidelity screenshots, professional media assets, and digital illustrations representing the projects and visual identity of this portfolio.
+
+### 👤 Profile & Milestone Photos
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="src/assets/images/babal_avatar_1782410152609.jpg" alt="Babal Professional Avatar" width="100%" style="border-radius: 12px; border: 1px solid #30363d;" />
+      <br />
+      <b>Babal's Professional Portrait</b>
+      <p>Digital close-up for professional developer networks and academic profiles.</p>
+    </td>
+    <td width="50%" align="center">
+      <img src="src/assets/images/babal_cake_hero_1782410382461.jpg" alt="Babal Milestone On-Stage Celebration" width="100%" style="border-radius: 12px; border: 1px solid #30363d;" />
+      <br />
+      <b>Babal's Milestone Celebration</b>
+      <p>On-stage holding a cake representing hard work, milestones, and graduation success.</p>
+    </td>
+  </tr>
+</table>
+
+### 💻 Live Project Interfaces
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="src/assets/images/watch_ecommerce_1782360952615.jpg" alt="PRO-LIFETIME Watch E-Commerce Store" width="100%" style="border-radius: 12px; border: 1px solid #30363d;" />
+      <br />
+      <b>PRO-LIFETIME Watch E-Commerce</b>
+      <p>Luxury watch boutique interface featuring detailed filters, carts, and responsive layouts.</p>
+    </td>
+    <td width="50%" align="center">
+      <img src="src/assets/images/mojito_shop_1782360968662.jpg" alt="Mojito Lounge Cocktail Bar" width="100%" style="border-radius: 12px; border: 1px solid #30363d;" />
+      <br />
+      <b>Mojito Lounge & Cocktail Bar</b>
+      <p>An energetic beverage portal styled with modern grids and micro-interactions.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="src/assets/images/student_dashboard_1782360985291.jpg" alt="Student Management Portal Console" width="100%" style="border-radius: 12px; border: 1px solid #30363d;" />
+      <br />
+      <b>Student Management System</b>
+      <p>Relational SQL database web dashboard complete with charts, indicators, and dark modes.</p>
+    </td>
+    <td width="50%" align="center">
+      <img src="src/assets/images/portfolio_mockup_1782361010167.jpg" alt="Glassmorphic Developer Resume Website" width="100%" style="border-radius: 12px; border: 1px solid #30363d;" />
+      <br />
+      <b>Glassmorphic Personal Website</b>
+      <p>Beautiful fluid responsive layout optimized for resumes, credentials, and digital portfolios.</p>
+    </td>
+  </tr>
+</table>
+
+### 🎨 Creative Digital Illustrations
 <div align="center">
-  <img src="src/assets/images/babal_cake_hero_1782410382461.jpg" alt="Babal - Profile Photo" width="280" style="border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);" />
-  
-  <h3><b>Babal</b></h3>
-  <p><b>Big Data & Cloud Computing Specialist | Computer Science Student</b></p>
-  <p>📍 Mumbai, India</p>
+  <img src="src/assets/images/developer_avatar_1782360933509.jpg" alt="Developer Workstation Concept Art" width="600" style="border-radius: 12px; border: 1px solid #30363d;" />
+  <br />
+  <b>Developer Workstation Concept Art</b>
+  <p>Minimalist vector graphics depicting a modern programmer workspace with dark theme displays.</p>
 </div>
 
 ---
@@ -19,7 +71,7 @@ Welcome to my professional developer portfolio! This is a modern, responsive, hi
 ## ✨ Features & Highlights
 
 - **🌗 Class-Based Dark & Light Mode**: Seamlessly transition between an eye-friendly, elegant dark mode and a clean, spacious light mode, built natively with Tailwind CSS v4 custom variants.
-- **🖼️ Interactive Visual Gallery**: A gorgeous bento-grid media showcase illustrating Babal's professional avatar, celebratory milestones, and high-fidelity project interfaces. Built with responsive filters and full-screen lightbox controls.
+- **🖼️ Comprehensive Visual Showcase**: All high-fidelity screenshots, professional profile assets, and creative developer illustrations beautifully organized and displayed directly in the documentation.
 - **📱 desktop-First Precision**: Fully responsive layout tailored perfectly for desktop screens down to mobile devices with smooth touch targets.
 - **✨ Fluid Animations**: Smooth visual interactive feedback, staggered card entrance effects, and dynamic particle backgrounds implemented via `@motion/react` (Motion) and HTML Canvas.
 - **📑 Live Printable Resume Section**: Beautifully formatted, print-optimized Resume section that looks spectacular on paper or exported as a PDF.
@@ -55,7 +107,6 @@ Welcome to my professional developer portfolio! This is a modern, responsive, hi
 │   │   ├── Education.tsx         # Detailed educational timeline
 │   │   ├── Skills.tsx            # Visual progression bars & expertise layout
 │   │   ├── Projects.tsx          # Interactive project bento-grid & demo links
-│   │   ├── Images.tsx            # Interactive Visual Gallery & Lightbox showcase
 │   │   ├── Experience.tsx        # Career internship timeline
 │   │   ├── ResumeSection.tsx     # Full printable interactive CV
 │   │   └── Contact.tsx           # Contact details with functional AJAX form
