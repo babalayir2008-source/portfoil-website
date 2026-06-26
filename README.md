@@ -10,7 +10,7 @@ Explore the high-fidelity screenshots illustrating the 9 key sections and visual
 
 ### 🏠 1. Hero Section
 <div align="center">
-  <img src="src/assets/images/screenshot_hero_1782490465670.jpg" alt="1. Hero Section Screenshot" width="100%" style="border-radius: 12px; border: 1px solid #30363d; margin-bottom: 20px;" />
+  <img src=""C:\aaaa\pro1.png"" alt="1. Hero Section Screenshot" width="100%" style="border-radius: 12px; border: 1px solid #30363d; margin-bottom: 20px;" />
 </div>
 
 ### 👤 2. About & Objective Section
