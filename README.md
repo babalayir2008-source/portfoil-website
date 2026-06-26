@@ -6,64 +6,51 @@ Welcome to my professional developer portfolio! This is a modern, responsive, hi
 
 ## 📸 Visual Gallery & Screenshots Showcase
 
-Explore the high-fidelity screenshots, professional media assets, and digital illustrations representing the projects and visual identity of this portfolio.
+Explore the high-fidelity screenshots illustrating the 9 key sections and visual identity of this portfolio website.
 
-### 👤 Profile & Milestone Photos
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <img src="src/assets/images/babal_avatar_1782410152609.jpg" alt="Babal Professional Avatar" width="100%" style="border-radius: 12px; border: 1px solid #30363d;" />
-      <br />
-      <b>Babal's Professional Portrait</b>
-      <p>Digital close-up for professional developer networks and academic profiles.</p>
-    </td>
-    <td width="50%" align="center">
-      <img src="src/assets/images/babal_cake_hero_1782410382461.jpg" alt="Babal Milestone On-Stage Celebration" width="100%" style="border-radius: 12px; border: 1px solid #30363d;" />
-      <br />
-      <b>Babal's Milestone Celebration</b>
-      <p>On-stage holding a cake representing hard work, milestones, and graduation success.</p>
-    </td>
-  </tr>
-</table>
-
-### 💻 Live Project Interfaces
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <img src="src/assets/images/watch_ecommerce_1782360952615.jpg" alt="PRO-LIFETIME Watch E-Commerce Store" width="100%" style="border-radius: 12px; border: 1px solid #30363d;" />
-      <br />
-      <b>PRO-LIFETIME Watch E-Commerce</b>
-      <p>Luxury watch boutique interface featuring detailed filters, carts, and responsive layouts.</p>
-    </td>
-    <td width="50%" align="center">
-      <img src="src/assets/images/mojito_shop_1782360968662.jpg" alt="Mojito Lounge Cocktail Bar" width="100%" style="border-radius: 12px; border: 1px solid #30363d;" />
-      <br />
-      <b>Mojito Lounge & Cocktail Bar</b>
-      <p>An energetic beverage portal styled with modern grids and micro-interactions.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <img src="src/assets/images/student_dashboard_1782360985291.jpg" alt="Student Management Portal Console" width="100%" style="border-radius: 12px; border: 1px solid #30363d;" />
-      <br />
-      <b>Student Management System</b>
-      <p>Relational SQL database web dashboard complete with charts, indicators, and dark modes.</p>
-    </td>
-    <td width="50%" align="center">
-      <img src="src/assets/images/portfolio_mockup_1782361010167.jpg" alt="Glassmorphic Developer Resume Website" width="100%" style="border-radius: 12px; border: 1px solid #30363d;" />
-      <br />
-      <b>Glassmorphic Personal Website</b>
-      <p>Beautiful fluid responsive layout optimized for resumes, credentials, and digital portfolios.</p>
-    </td>
-  </tr>
-</table>
-
-### 🎨 Creative Digital Illustrations
+### 🏠 1. Hero Section
 <div align="center">
-  <img src="src/assets/images/developer_avatar_1782360933509.jpg" alt="Developer Workstation Concept Art" width="600" style="border-radius: 12px; border: 1px solid #30363d;" />
-  <br />
-  <b>Developer Workstation Concept Art</b>
-  <p>Minimalist vector graphics depicting a modern programmer workspace with dark theme displays.</p>
+  <img src="src/assets/images/screenshot_hero_1782490465670.jpg" alt="1. Hero Section Screenshot" width="100%" style="border-radius: 12px; border: 1px solid #30363d; margin-bottom: 20px;" />
+</div>
+
+### 👤 2. About & Objective Section
+<div align="center">
+  <img src="src/assets/images/screenshot_about_1782490487781.jpg" alt="2. About Section Screenshot" width="100%" style="border-radius: 12px; border: 1px solid #30363d; margin-bottom: 20px;" />
+</div>
+
+### 🎓 3. Education History Timeline
+<div align="center">
+  <img src="src/assets/images/screenshot_education_1782490505673.jpg" alt="3. Education Section Screenshot" width="100%" style="border-radius: 12px; border: 1px solid #30363d; margin-bottom: 20px;" />
+</div>
+
+### 📊 4. Skills & Technologies Section
+<div align="center">
+  <img src="src/assets/images/screenshot_skills_1782490521433.jpg" alt="4. Skills Section Screenshot" width="100%" style="border-radius: 12px; border: 1px solid #30363d; margin-bottom: 20px;" />
+</div>
+
+### 💻 5. Featured Projects - Row 1
+<div align="center">
+  <img src="src/assets/images/screenshot_projects_1_1782490538883.jpg" alt="5. Projects Row 1 Screenshot" width="100%" style="border-radius: 12px; border: 1px solid #30363d; margin-bottom: 20px;" />
+</div>
+
+### 🖥️ 6. Featured Projects - Row 2
+<div align="center">
+  <img src="src/assets/images/screenshot_projects_2_1782490558746.jpg" alt="6. Projects Row 2 Screenshot" width="100%" style="border-radius: 12px; border: 1px solid #30363d; margin-bottom: 20px;" />
+</div>
+
+### 💼 7. Work & Internships (Experience)
+<div align="center">
+  <img src="src/assets/images/screenshot_experience_1782490575216.jpg" alt="7. Experience Section Screenshot" width="100%" style="border-radius: 12px; border: 1px solid #30363d; margin-bottom: 20px;" />
+</div>
+
+### ✉️ 8. Contact Details & Form Section
+<div align="center">
+  <img src="src/assets/images/screenshot_contact_1782490592590.jpg" alt="8. Contact Section Screenshot" width="100%" style="border-radius: 12px; border: 1px solid #30363d; margin-bottom: 20px;" />
+</div>
+
+### 📝 9. Footer Section & Philosophy
+<div align="center">
+  <img src="src/assets/images/screenshot_footer_1782490615781.jpg" alt="9. Footer Section Screenshot" width="100%" style="border-radius: 12px; border: 1px solid #30363d; margin-bottom: 20px;" />
 </div>
 
 ---
