@@ -129,7 +129,7 @@ export default function Navbar({ isDarkMode, toggleTheme }: NavbarProps) {
                   className={`relative px-1.5 py-1 text-sm font-medium tracking-wide transition-colors duration-200 ${
                     isActive
                       ? 'text-lux-wine dark:text-lux-gold'
-                      : 'text-slate-650 dark:text-slate-300 hover:text-lux-black dark:hover:text-white'
+                      : 'text-slate-600 dark:text-slate-300 hover:text-lux-black dark:hover:text-white'
                   }`}
                 >
                   {link.name}
@@ -160,7 +160,7 @@ export default function Navbar({ isDarkMode, toggleTheme }: NavbarProps) {
             <button
               id="theme-toggle-mobile"
               onClick={toggleTheme}
-              className="p-2 rounded-xl bg-slate-100 dark:bg-white/5 text-slate-750 dark:text-slate-300 hover:text-lux-wine dark:hover:text-lux-gold border border-slate-200/50 dark:border-white/5 transition-colors"
+              className="p-2 rounded-xl bg-slate-100 dark:bg-white/5 text-slate-700 dark:text-slate-300 hover:text-lux-wine dark:hover:text-lux-gold border border-slate-200/50 dark:border-white/5 transition-colors"
               aria-label="Toggle dark/light theme"
             >
               {isDarkMode ? <Sun size={18} /> : <Moon size={18} />}
@@ -170,7 +170,7 @@ export default function Navbar({ isDarkMode, toggleTheme }: NavbarProps) {
             <button
               id="mobile-menu-toggle"
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-xl bg-slate-100 dark:bg-white/5 text-slate-750 dark:text-slate-300 hover:text-lux-wine dark:hover:text-lux-gold border border-slate-200/50 dark:border-white/5 transition-colors"
+              className="p-2 rounded-xl bg-slate-100 dark:bg-white/5 text-slate-700 dark:text-slate-300 hover:text-lux-wine dark:hover:text-lux-gold border border-slate-200/50 dark:border-white/5 transition-colors"
               aria-label="Toggle mobile menu"
             >
               {isOpen ? <X size={20} /> : <Menu size={20} />}

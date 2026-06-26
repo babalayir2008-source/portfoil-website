@@ -136,7 +136,7 @@ Generated via Babal's Developer Portfolio
               <p>Email: {personalInfo.email}</p>
               <p>Phone: {personalInfo.phone}</p>
               <p>Location: {personalInfo.location}</p>
-              <p className="print:hidden">GitHub: github.com/manshiayir</p>
+              <p className="print:hidden">GitHub: github.com/babalayir2008-source</p>
             </div>
           </div>
 

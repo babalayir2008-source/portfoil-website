@@ -86,7 +86,7 @@ export default function Achievements() {
                 className="flex items-center gap-5 p-6 rounded-3xl bg-white/80 dark:bg-white/5 border border-slate-200/80 dark:border-white/10 shadow-lg hover:shadow-xl hover:border-lux-gold/25 backdrop-blur-md transition-all"
               >
                 {/* Icon Bubble */}
-                <div className="p-4 bg-slate-150 dark:bg-white/10 rounded-2xl shadow-sm border border-slate-200/40 dark:border-white/5 shrink-0">
+                <div className="p-4 bg-slate-100 dark:bg-white/10 rounded-2xl shadow-sm border border-slate-200/40 dark:border-white/5 shrink-0">
                   {getIcon(ach.label)}
                 </div>
 

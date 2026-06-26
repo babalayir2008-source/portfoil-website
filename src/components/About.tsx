@@ -81,7 +81,7 @@ export default function About() {
               </div>
 
               <p className="text-slate-600 dark:text-slate-300 leading-relaxed text-sm sm:text-base">
-                I am currently pursuing my **B.Sc. in Computer Science** in Mumbai. Throughout my academic career, I developed a strong passion for programming and interactive web layout construction. Building products like watch shops, student management systems, and high-performance frontends has equipped me with practical, user-centric problem-solving insights.
+                I am currently in my 3rd year pursuing a **Diploma in Computer Engineering**, specializing in **Big Data &amp; Cloud Computing** in Mumbai. Throughout my academic career, I have developed a strong passion for high-volume data pipelines, distributed systems, and scalable cloud architectures. Active learning and internships have equipped me with practical, user-centric system building and cloud deployment insights.
               </p>
               
               <div className="flex items-center gap-2 pt-4 pb-2">
@@ -140,7 +140,7 @@ export default function About() {
                 </div>
                 <div>
                   <p className="text-[10px] text-slate-500 font-mono uppercase tracking-wider">Status</p>
-                  <p className="text-xs font-semibold text-slate-800 dark:text-white">Active Undergraduate</p>
+                  <p className="text-xs font-semibold text-slate-800 dark:text-white">Diploma Candidate (5th Sem)</p>
                 </div>
               </div>
             </div>

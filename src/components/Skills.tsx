@@ -100,7 +100,7 @@ export default function Skills() {
                   {catSkills.map((skill) => (
                     <div key={skill.name} className="space-y-1.5">
                       <div className="flex justify-between items-center text-sm font-semibold">
-                        <span className="text-slate-800 dark:text-slate-250">{skill.name}</span>
+                        <span className="text-slate-800 dark:text-slate-200">{skill.name}</span>
                         <span className="text-xs font-mono text-slate-500 dark:text-slate-400">{skill.percentage}%</span>
                       </div>
                       

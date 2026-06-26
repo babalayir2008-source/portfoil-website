@@ -23,7 +23,7 @@ export default function Contact() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     
     // Quick validation
@@ -41,13 +41,33 @@ export default function Contact() {
 
     setStatus('submitting');
 
-    // Simulate server POST submission
-    setTimeout(() => {
-      setStatus('success');
-      setFormData({ name: '', email: '', message: '' });
-      // Reset success notification after 5 seconds
-      setTimeout(() => setStatus('idle'), 5000);
-    }, 1500);
+    try {
+      const response = await fetch("https://formsubmit.co/ajax/babalayir2008@gmail.com", {
+        method: "POST",
+        headers: { 
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          Name: formData.name,
+          Email: formData.email,
+          Message: formData.message,
+          _subject: `New Developer Portfolio Message from ${formData.name}`
+        })
+      });
+
+      if (response.ok) {
+        setStatus('success');
+        setFormData({ name: '', email: '', message: '' });
+        // Reset success notification after 5 seconds
+        setTimeout(() => setStatus('idle'), 5000);
+      } else {
+        throw new Error('Could not submit form. Please try again.');
+      }
+    } catch (err: any) {
+      setStatus('error');
+      setErrorMessage(err.message || 'Something went wrong. Please try again.');
+    }
   };
 
   return (

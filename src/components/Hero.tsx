@@ -15,8 +15,8 @@ interface HeroProps {
 
 export default function Hero({ isDarkMode }: HeroProps) {
   const titles = [
-    "Full-Stack Developer",
-    "Web Developer",
+    "Big Data Specialist",
+    "Cloud Computing Developer",
     "Computer Science Student",
     "Tech Enthusiast"
   ];

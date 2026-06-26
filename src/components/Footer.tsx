@@ -41,7 +41,7 @@ export default function Footer() {
               <span className="text-lux-gold font-mono">/&gt;</span>
             </a>
             <p className="text-xs text-slate-500 font-mono">
-              Computer Science Student &amp; Aspiring Full-Stack Developer
+              Computer Science Student | Big Data &amp; Cloud Computing Specialization
             </p>
           </div>
 
@@ -79,6 +79,13 @@ export default function Footer() {
             ))}
           </div>
 
+        </div>
+
+        {/* Inspirational Quote */}
+        <div className="text-center py-6 border-b border-white/5 mb-6">
+          <p className="text-xs sm:text-sm italic font-medium tracking-wide text-slate-400 max-w-xl mx-auto leading-relaxed">
+            "ever try, ever fail, no matter, try again, fail again, fail better, the world is yours, treat everyone kindly"
+          </p>
         </div>
 
         {/* Copyright and signature */}

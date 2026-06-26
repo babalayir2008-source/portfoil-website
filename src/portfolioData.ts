@@ -7,35 +7,34 @@ import { Skill, Project, EducationItem, ExperienceItem, Certification, Achieveme
 
 export const personalInfo = {
   name: "Babal",
-  title: "Full Stack Developer | Web Developer | Computer Science Student",
-  avatar: "/src/assets/images/developer_avatar_1782360933509.jpg",
-  email: "manshiayir@gmail.com",
+  title: "Big Data & Cloud Computing Specialist | Computer Science Student",
+  avatar: "/src/assets/images/babal_cake_hero_1782410382461.jpg",
+  email: "babalayir2008@gmail.com",
   phone: "+91 98765 43210",
   location: "Mumbai, India",
-  github: "https://github.com/manshiayir",
-  linkedin: "https://linkedin.com/in/manshiayir",
-  instagram: "https://instagram.com/manshiayir",
+  github: "https://github.com/babalayir2008-source",
+  linkedin: "https://linkedin.com/in/babalayir2008",
+  instagram: "https://instagram.com/babalayir2008",
   resumeUrl: "#", // Standard self-referential or download target in app
-  bio: "I am a passionate Computer Science student and aspiring Full-Stack Developer with a deep interest in building modern, high-performance web applications. Focused on frontend craft, interactive styling, and robust database backends, I enjoy translating complex ideas into highly polished digital experiences.",
-  objective: "To secure a challenging role as a Full-Stack Developer or Software Engineer Intern in a dynamic organization where I can apply my web development expertise, database design skills, and passion for elegant UI/UX to build scalable software solutions."
+  bio: "I am a passionate Computer Science student specializing in Big Data and Cloud Computing. With a strong foundation in modern cloud architectures, distributed systems, and real-time data processing pipelines, I love engineering scalable infrastructures and converting complex data-driven challenges into smooth, polished digital experiences.",
+  objective: "To secure a challenging role as a Big Data Developer or Cloud Engineering Intern in an innovative organization where I can apply my expertise in high-performance data architectures, virtualization, and scalable software solutions."
 };
 
 export const skillsData: Skill[] = [
+  // Cloud & Big Data
+  { name: "Cloud Computing (AWS/GCP)", category: "backend", percentage: 88 },
+  { name: "Big Data (Hadoop/Spark)", category: "database", percentage: 85 },
+  { name: "Docker & Kubernetes", category: "tools", percentage: 80 },
   // Frontend
-  { name: "HTML5", category: "frontend", percentage: 95 },
-  { name: "CSS3", category: "frontend", percentage: 90 },
-  { name: "JavaScript (ES6+)", category: "frontend", percentage: 92 },
   { name: "React.js", category: "frontend", percentage: 88 },
   { name: "Tailwind CSS", category: "frontend", percentage: 95 },
-  // Backend
-  { name: "Node.js", category: "backend", percentage: 85 },
-  { name: "Express.js", category: "backend", percentage: 84 },
-  // Database
-  { name: "Supabase", category: "database", percentage: 80 },
-  { name: "MySQL", category: "database", percentage: 82 },
+  { name: "JavaScript (ES6+)", category: "frontend", percentage: 92 },
+  // Backend & Databases
+  { name: "Node.js & Express.js", category: "backend", percentage: 86 },
+  { name: "SQL (MySQL/PostgreSQL)", category: "database", percentage: 90 },
+  { name: "MongoDB / Supabase", category: "database", percentage: 84 },
   // Tools
-  { name: "Git", category: "tools", percentage: 86 },
-  { name: "GitHub", category: "tools", percentage: 88 },
+  { name: "Git & GitHub", category: "tools", percentage: 88 },
   { name: "VS Code", category: "tools", percentage: 95 }
 ];
 
@@ -58,10 +57,10 @@ export const educationData: EducationItem[] = [
   },
   {
     id: "edu-3",
-    degree: "B.Sc. in Computer Science",
-    institution: "Mithibai College of Science, Mumbai",
-    year: "2023 - 2026 (Expected)",
-    grade: "9.2 CGPA (Current)",
+    degree: "Diploma in Computer Engineering (Big Data & Cloud Computing)",
+    institution: "Government Polytechnic, Mumbai",
+    year: "2024 - 2027 (3rd Year, 5th Sem)",
+    grade: "Active Candidate",
     type: "university"
   }
 ];
@@ -74,7 +73,7 @@ export const projectsData: Project[] = [
     image: "/src/assets/images/watch_ecommerce_1782360952615.jpg",
     tech: ["React.js", "Tailwind CSS", "Motion", "LocalStorage"],
     liveUrl: "#demo-watch",
-    githubUrl: "https://github.com/manshiayir/pro-lifetime-watch",
+    githubUrl: "https://github.com/babalayir2008-source/pro-lifetime-watch",
     category: "web"
   },
   {
@@ -84,7 +83,7 @@ export const projectsData: Project[] = [
     image: "/src/assets/images/mojito_shop_1782360968662.jpg",
     tech: ["React.js", "Tailwind CSS", "Motion", "Context API"],
     liveUrl: "#demo-mojito",
-    githubUrl: "https://github.com/manshiayir/mojito-shop",
+    githubUrl: "https://github.com/babalayir2008-source/mojito-shop",
     category: "web"
   },
   {
@@ -94,7 +93,7 @@ export const projectsData: Project[] = [
     image: "/src/assets/images/student_dashboard_1782360985291.jpg",
     tech: ["Node.js", "Express.js", "MySQL", "Recharts", "Tailwind CSS"],
     liveUrl: "#demo-sms",
-    githubUrl: "https://github.com/manshiayir/student-management-system",
+    githubUrl: "https://github.com/babalayir2008-source/student-management-system",
     category: "fullstack"
   },
   {
@@ -104,7 +103,7 @@ export const projectsData: Project[] = [
     image: "/src/assets/images/portfolio_mockup_1782361010167.jpg",
     tech: ["React.js", "Tailwind CSS", "Motion", "Lucide Icons"],
     liveUrl: "#demo-portfolio",
-    githubUrl: "https://github.com/manshiayir/developer-portfolio",
+    githubUrl: "https://github.com/babalayir2008-source/developer-portfolio",
     category: "web"
   }
 ];
@@ -131,6 +130,18 @@ export const certificationsData: Certification[] = [
 ];
 
 export const experienceData: ExperienceItem[] = [
+  {
+    id: "exp-0",
+    role: "Big Data & Cloud Engineer Intern",
+    company: "Elite Forums",
+    period: "June 2026 - Present",
+    description: [
+      "Currently working on designing and optimizing big data pipelines for low-latency streaming analytics.",
+      "Configuring and managing secure cloud environments and virtual computing services across distributed systems.",
+      "Developing containerized microservices to streamline software deployments and increase horizontal scalability."
+    ],
+    type: "internship"
+  },
   {
     id: "exp-1",
     role: "Full Stack Developer Intern",
