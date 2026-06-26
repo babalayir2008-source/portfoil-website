@@ -5,10 +5,17 @@
 
 import { Skill, Project, EducationItem, ExperienceItem, Certification, Achievement } from './types';
 
+// Import assets as modules so Vite bundles and resolves them correctly in production/deployed builds
+import babalAvatar from './assets/images/babal_avatar_1782495184850.jpg';
+import watchEcommerce from './assets/images/watch_ecommerce_new_1782496789490.jpg';
+import mojitoShop from './assets/images/mojito_shop_new_1782496802816.jpg';
+import studentManagement from './assets/images/student_management_new_1782496821233.jpg';
+import portfolioMockup from './assets/images/portfolio_mockup_new_1782496839286.jpg';
+
 export const personalInfo = {
   name: "Babal",
   title: "Big Data & Cloud Computing Specialist | Computer Science Student",
-  avatar: "/assets/images/babal_avatar_1782495184850.jpg",
+  avatar: babalAvatar,
   email: "babalayir2008@gmail.com",
   phone: "+91 98765 43210",
   location: "Mumbai, India",
@@ -70,7 +77,7 @@ export const projectsData: Project[] = [
     id: "proj-1",
     title: "PRO-LIFETIME Watch E-Commerce",
     description: "A premium online store for luxury watch collectors. Includes high-fidelity product pages, interactive shopping cart, secure client checkout flows, and dynamic catalog searching/filtering.",
-    image: "/assets/images/watch_ecommerce_1782494971907.jpg",
+    image: watchEcommerce,
     tech: ["React.js", "Tailwind CSS", "Motion", "LocalStorage"],
     liveUrl: "#demo-watch",
     githubUrl: "https://github.com/babalayir2008-source/pro-lifetime-watch",
@@ -80,7 +87,7 @@ export const projectsData: Project[] = [
     id: "proj-2",
     title: "Mojito Shop Website",
     description: "An energetic beverage platform showcasing curated drink recipes and cocktail ordering systems. Leverages rich micro-interactions, responsive sizing, and eye-catching product showcases.",
-    image: "/assets/images/mojito_shop_1782494986500.jpg",
+    image: mojitoShop,
     tech: ["React.js", "Tailwind CSS", "Motion", "Context API"],
     liveUrl: "#demo-mojito",
     githubUrl: "https://github.com/babalayir2008-source/mojito-shop",
@@ -90,7 +97,7 @@ export const projectsData: Project[] = [
     id: "proj-3",
     title: "Student Management System",
     description: "A full-featured educational portal with real-time analytics dashboards, grade administration panels, and multi-user authentication. Features comprehensive database normalization.",
-    image: "/assets/images/student_management_dashboard_1782495315568.jpg",
+    image: studentManagement,
     tech: ["Node.js", "Express.js", "MySQL", "Recharts", "Tailwind CSS"],
     liveUrl: "#demo-sms",
     githubUrl: "https://github.com/babalayir2008-source/student-management-system",
@@ -100,7 +107,7 @@ export const projectsData: Project[] = [
     id: "proj-4",
     title: "Portfolio Website",
     description: "A modern glassmorphic personal developer website featuring reactive scroll states, light/dark responsive themes, custom interactive timelines, and automatic project categorization.",
-    image: "/assets/images/portfolio_mockup_1782495145022.jpg",
+    image: portfolioMockup,
     tech: ["React.js", "Tailwind CSS", "Motion", "Lucide Icons"],
     liveUrl: "#demo-portfolio",
     githubUrl: "https://github.com/babalayir2008-source/developer-portfolio",
